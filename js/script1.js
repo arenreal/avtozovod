@@ -33,7 +33,7 @@ function calcPaths(totalDur) {
     const duration = totalLen / len * totalDuration;
 
     // set animation duration and delay
-    pathElem.style.animationDuration = `${duration < 0.2 ? 0.2 : duration}s`;
+    pathElem.style.animationDuration = `${duration < 0.1 ? 0.1 : duration}s`;
     pathElem.style.animationDelay = `${delay}s`;
 
     // set dash array and offset to path length - this is how you hide the line
@@ -41,7 +41,7 @@ function calcPaths(totalDur) {
     pathElem.setAttribute('stroke-dashoffset', totalLen);
 
     // set delay for the next path - added .2 seconds to make it more realistic
-    delay += duration + 0.2;
+    delay += duration + 0.1;
   });
 
   // set 'animated' class to body which will start the animation

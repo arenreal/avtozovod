@@ -1426,23 +1426,18 @@ footer{
    }
 }
 
-@media only screen and (max-width:660px) {
-   .autograph {
-      width: 70%;
-   }
-}
+
 
 @media only screen and (max-width:560px) {
-   .autograph {
-      width: 65%;
-   }
+   
    .search.s--active .search__box {
     width: 350px;
-    left: 50%;
+    left: 57%;
  }
 
  .search.s--active .search__line{
    left: 36%;
+   top: 40px;
  }
 
  .search.s--active .search__close {
@@ -1450,28 +1445,34 @@ footer{
  }
  .search__box {
     top: -40%;
+    width: 20px;
+    height: 20px;
+    left: 130%;
  }
  .search__bg {
     top: -40%;
+    left: 130%;
+ }
+
+ .search__line {
+    left: 0%;
+    top: 0px;
+    width: 15px;
  }
 
  .contents {
     padding-top: 40px;
-    padding-right: 10px;
     padding-bottom: 40px;
     padding-left: 40px;
 }
 
-.swiper-container.nav-slider .swiper-slide .content .title {
-    font-size: 17px !important;
-}
-
-.swiper-slide .content .title {
-    font-size: 1.6em;
-}
-
-.swiper-slide .content .caption {
-    font-size: 17px;
+@media only screen and (max-width:330px) {
+   .search.s--active .search__box {
+    width: 300px;
+    left: 76%;
  }
 
+ .search.s--active .search__line {
+    left: 26%;
+ }
 }
