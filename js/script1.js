@@ -126,3 +126,4 @@ calcPaths();
     $searchOverlay.classList.remove("s--active");
   };
 }());
+

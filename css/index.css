@@ -1,4 +1,6 @@
- 
+ a {
+  color: #fff;
+ }
 /*Swiper*/
 
 [class^="swiper-button-"] {
