@@ -14,7 +14,7 @@ html, body {
 }
 
 body {
-  background-color: #000000c4 !important;
+  background-color: #000000 !important;
    font-family: "metropolis-regular", sans-serif;
    font-size: 1.6rem;
    font-style: normal;
@@ -218,15 +218,15 @@ a {
  * # pageheader
  *
  * ------------------------------------------------------------------- */
-.s-pageheader {
-   min-height: 174px;
+#page {
+   
    background-image: url(../images/hero-bg.jpg);
    background-repeat: no-repeat;
    background-position: center center;
    position: relative;
 }
 
-.s-pageheader::before {
+#page::before {
    display: block;
    content: "";
    position: absolute;
@@ -234,7 +234,7 @@ a {
    left: 0;
    width: 100%;
    height: 100%;
-   background-color: #151515;
+   background-color: #151515e3;
    opacity: .98;
 }
 
@@ -244,7 +244,6 @@ a {
 }
 
 .header {
-   position: absolute;
    text-align: center;
    top: 30px;
    width: 100%;

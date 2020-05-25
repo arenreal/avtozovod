@@ -1,9 +1,14 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-  <title>ne.nastoyashiy</title>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="www.frebsite.nl" />
+        <meta
+            name="viewport"
+            content="width=device-width minimum-scale=1.0 maximum-scale=1.0 user-scalable=no"
+        />
+
+ <title>mmenu.js demo</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
@@ -11,11 +16,38 @@
   <link rel="stylesheet" href="./css/index.css">
   <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="favicon.ico" rel="icon" type="image/x-icon">
-</head>
-<body class="text-center">
 
- <section class="s-pageheader s-pageheader--home">
+        <link
+            rel="stylesheet"
+            href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link rel="stylesheet" href="plugins/mmenu-js-master/demo/css/demo.css" />
+        <link rel="stylesheet" href="plugins/mmenu-js-master/dist/mmenu.css" />
+
+        <style>
+            :root {
+                --mm-sidebar-expanded-size: 300px;
+            }
+            .mm-menu {
+                --mm-listitem-size: 50px;
+                --mm-navbar-size: 50px;
+            }
+
+            .mm-navbar_tabs span {
+                display: inline-block;
+                margin-left: 8px;
+            }
+            @media (max-width: 450px) {
+                .mm-navbar_tabs span {
+                    display: none;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="page">                
   <header class="header">
+    <a href="#menu"><span></span></a>
     <div class="header__content rob" id="home">
       <div class="header__logo">
         <svg class="autograph logo" height="103" viewBox="0 0 600 103" width="600" xmlns="http://www.w3.org/2000/svg">
@@ -64,29 +96,13 @@
   </div>
 
 </div>
-
-<a class="header__toggle-menu" href="#0" title="Menu"><span>Menu</span></a>
-<nav class="header__nav-wrap">
-  <ul class="header__nav">
-    <li class="current">
-      <a href="index.html" title="">Home</a>
-    </li>
-    <li>
-      <a href="contact.html" title="">Contact</a>
-    </li>
-    <li>
-      <a href="about.html" title="">About</a>
-    </li>
-    <li>
-      <a href="#" title="">Login/Registration</a>
-    </li>
-  </ul><!-- end header__nav -->
   
 </nav><!-- end header__nav-wrap -->
 </div><!-- header-content -->
 </header><!-- header -->
-<main>
-<div class="pageheader-content rob">
+            </div>
+            </div>
+        <div class="pageheader-content rob">
   <div class="col-full">
     <div class="featured">
       <div class="featured__column featured__column--big">
@@ -143,7 +159,8 @@
 </div><!-- end pageheader-content row -->
 </section>
 
-<div class="swiper-container main-slider loading">
+
+            <div class="swiper-container main-slider loading">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
       <figure class="slide-bgimg" style="background-image:url(https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLbVhsNzdIYmlfN1E)">
@@ -168,7 +185,7 @@
         <img src="./images/index/6.jpg" class="entity-img" />
       </figure>
       <div class="content">
-        <p class="title">Billie	Pierce</p>
+        <p class="title">Billie Pierce</p>
         <span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
       </div>
     </div>
@@ -177,7 +194,7 @@
         <img src="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLVUpEems2ZXpHYVk" class="entity-img" />
       </figure>
       <div class="content">
-        <p class="title">Trevor	Copeland</p>
+        <p class="title">Trevor Copeland</p>
         <span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
       </div>
     </div>
@@ -186,7 +203,7 @@
         <img src="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLNXBIcEdOUFVIWmM" class="entity-img" />
       </figure>
       <div class="content">
-        <p class="title">Bernadette	Newman</p>
+        <p class="title">Bernadette Newman</p>
         <span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
       </div>
     </div>
@@ -248,7 +265,7 @@
         <img src="images/index/6.jpg" class="entity-img" />
       </figure>
       <div class="content">
-        <p class="title">Billie	Pierce</p>
+        <p class="title">Billie Pierce</p>
       </div>
     </div>
     <div class="swiper-slide">
@@ -256,7 +273,7 @@
         <img src="images/index/6.jpg" class="entity-img" />
       </figure>
       <div class="content">
-        <p class="title">Trevor	Copeland</p>
+        <p class="title">Trevor Copeland</p>
       </div>
     </div>
     <div class="swiper-slide">
@@ -264,7 +281,7 @@
         <img src="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLNXBIcEdOUFVIWmM" class="entity-img" />
       </figure>
       <div class="content">
-        <p class="title">Bernadette	Newman</p>
+        <p class="title">Bernadette Newman</p>
       </div>
     </div>
     <div class="swiper-slide">
@@ -294,16 +311,134 @@
   </div>
 </div>
 
-<!-- partial -->
-</main>
+            <nav id="menu">
+                <div id="panel-menu">
+                    <ul>
+                        <li><a href="#/">Home</a></li>
+                        <li>
+                            <span>About us</span>
+                            <ul>
+                                <li><a href="#/">History</a></li>
+                                <li>
+                                    <span>The team</span>
+                                    <ul>
+                                        <li><a href="#/">Management</a></li>
+                                        <li><a href="#/">Sales</a></li>
+                                        <li><a href="#/">Development</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#/">Our address</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#/">Contact</a></li>
+
+                        <li class="Divider">Other demos</li>
+                        <li><a href="default.html">Default demo</a></li>
+                        <li><a href="onepage.html">One page demo</a></li>
+                    </ul>
+                </div>
+
+                <div id="panel-account">
+                    <ul>
+                        <li><a href="#/">My profile</a></li>
+                        <li><a href="#/">Privacy settings</a></li>
+                        <li><a href="#/">Activity</a></li>
+                        <li><a href="#/">Sign out</a></li>
+                    </ul>
+                </div>
+
+                <div id="panel-cart">
+                    <p style="text-align: center; padding-top: 30px;">
+                        Your shoppingcart is empty.<br />
+                        <a href="#/">Continue shopping.</a>
+                    </p>
+                </div>
+            </nav>
+        
+        
 <footer>
   <span>© Aleksander Knyazev 2020г</span>
 
 </footer><!-- end s-footer -->
-<script  src="./js/script1.js"></script>
+        <!-- mmenu scripts -->
+        <script  src="./js/script1.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/84/three.min.js"></script>
 <script src="js/jquery-3.2.1.min.js"></script> 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js'></script>
 <script  src="./js/script.js"></script>
-</body>
+        <script src="plugins/mmenu-js-master/dist/mmenu.js"></script>
+        <script>
+            new Mmenu(
+                document.querySelector('#menu'),
+                {
+                    extensions: ['theme-dark', 'shadow-page'],
+                    setSelected: true,
+                    counters: true,
+                    searchfield: {
+                        placeholder: 'Search menu items',
+                    },
+                    iconbar: {
+                        use: '(min-width: 450px)',
+                        top: [
+                            '<a href="#/"><span class="fa fa-home"></span></a>',
+                        ],
+                        bottom: [
+                            '<a href="#/"><span class="fa fa-twitter"></span></a>',
+                            '<a href="#/"><span class="fa fa-facebook"></span></a>',
+                            '<a href="#/"><span class="fa fa-youtube"></span></a>',
+                        ],
+                    },
+                    sidebar: {
+                        collapsed: {
+                            use: '(min-width: 1650px)',
+                            hideNavbar: false,
+                        },
+                        expanded: {
+                            use: '(min-width: 1650px)',
+                        },
+                    },
+                    navbars: [
+                        {
+                            content: ['searchfield'],
+                        },
+                        {
+                            type: 'tabs',
+                            content: [
+                                '<a href="#panel-menu"><i class="fa fa-bars"></i> <span>Menu</span></a>',
+                                '<a href="#panel-account"><i class="fa fa-user"></i> <span>Account</span></a>',
+                                '<a href="#panel-cart"><i class="fa fa-shopping-cart"></i> <span>Cart</span></a>',
+                            ],
+                        },
+                        {
+                            content: ['prev', 'breadcrumbs', 'close'],
+                        },
+                        {
+                            position: 'bottom',
+                            content: [
+                                '<a href="http://mmenu.frebsite.nl/wordpress-plugin" target="_blank">WordPress plugin</a>',
+                            ],
+                        },
+                    ],
+                },
+                {
+                    searchfield: {
+                        clear: true,
+                    },
+                    navbars: {
+                        breadcrumbs: {
+                            removeFirst: true,
+                        },
+                    },
+                }
+            );
+
+            document.addEventListener('click', function (evnt) {
+                var anchor = evnt.target.closest('a[href^="#/"]');
+                if (anchor) {
+                    alert("Thank you for clicking, but that's a demo link.");
+                    evnt.preventDefault();
+                }
+            });
+        </script>
+    </body>
 </html>
