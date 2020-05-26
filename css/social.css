@@ -70,28 +70,24 @@ body {
   left: -51px;
   transform: rotate(0deg);
   transition-delay: 0.1s;
-  border-right: 1px dashed #cccccc;
 }
 .menu .share:hover.left .submenu li:nth-child(2) {
   opacity: 1;
   left: -102px;
   transform: rotate(0deg);
   transition-delay: 0.1s;
-  border-right: 1px dashed #cccccc;
 }
 .menu .share:hover.left .submenu li:nth-child(3) {
   opacity: 1;
   left: -153px;
   transform: rotate(0deg);
   transition-delay: 0.2s;
-  border-right: 1px dashed #cccccc;
 }
 .menu .share:hover.left .submenu li:nth-child(4) {
   opacity: 1;
   left: -204px;
   transform: rotate(0deg);
   transition-delay: 0.3;
-  border-right: 1px dashed #cccccc;
 }
 .menu .share:hover.left .submenu li:nth-child(5) {
   opacity: 1;

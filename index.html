@@ -3,10 +3,17 @@
     <head>
         <meta charset="utf-8" />
         <meta name="author" content="www.frebsite.nl" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
         <meta
             name="viewport"
             content="width=device-width minimum-scale=1.0 maximum-scale=1.0 user-scalable=no"
         />
+         <meta name="description" content="3D Thumbnail Hover Effects" />
+        <meta name="keywords" content="3d, 3dtransform, hover, effect, thumbnail, overlay, curved, folded" />
+        <meta name="author" content="Codrops" /> 
+        <link rel="stylesheet" type="text/css" href="css/head/css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/head/css/style_common.css" />
+        <link rel="stylesheet" type="text/css" href="css/head/css/style2.css" />
 
  <title>ne.nastoyashiy</title>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css'>
@@ -102,61 +109,61 @@
 </header><!-- header -->
             </div>
             </div>
-        <div class="pageheader-content rob">
-  <div class="col-full">
-    <div class="featured">
-      <div class="featured__column featured__column--big">
-        <div class="entry" style=" background-image:url('images/index/adapt.jpg');">
-          <div class="entry__content">
-            <span class="entry__category"><a href="#1">Frontend</a></span>
-            <h1><a href="#1" title="">Верстка под экран. Адаптивность.</a></h1>
-            <div class="entry__info">
-              <a class="entry__profile-pic" href="#1"><img alt="" class="avatar" src="images/avatars/user-02.jpg"></a>
-              <ul class="entry__meta">
+
+            <div id="grid" class="main">
+        <div class="view">
+          <div class="view-back">
+            <span data-icon="A">566</span>
+            <span data-icon="B">124</span>
+            <a href="http://www.flickr.com/photos/ag2r/5033654303/in/photostream">&rarr;</a>
+          </div>
+          <img src="images/5.jpg" />
+          <div class="author-viev">
+              <div class="img-viev"><img alt="" src="images/avatars/user-02.jpg"></div>
+              <ul>
                 <li>
                   <a href="#1">Aleksander Knyazev</a>
                 </li>
                 <li>April 25, 2020</li>
               </ul>
             </div>
-          </div><!-- end entry__content -->
-        </div><!-- end entry -->
-      </div><!-- end featured__big -->
-      <div class="featured__column featured__column--small">
-        <div class="entry" style="background-image:url('images/index/git.jpg');">
-          <div class="entry__content">
-            <span class="entry__category"><a href="pages/git.html">Git</a></span>
-            <h1><a href="pages/git.html" title="">Введение в понятие GIT. Работа с GIT.</a></h1>
-            <div class="entry__info">
-              <a class="entry__profile-pic" href="#1"><img alt="" class="avatar" src="images/avatars/user-02.jpg"></a>
-              <ul class="entry__meta">
+        </div>
+         <div class="view">
+          <div class="view-back">
+            <span data-icon="A">566</span>
+            <span data-icon="B">124</span>
+            <a href="http://www.flickr.com/photos/ag2r/5033654303/in/photostream">&rarr;</a>
+          </div>
+          <img src="images/5.jpg" />
+          <div class="author-viev">
+              <div class="img-viev"><img alt="" src="images/avatars/user-02.jpg"></div>
+              <ul>
                 <li>
                   <a href="#1">Aleksander Knyazev</a>
                 </li>
                 <li>April 25, 2020</li>
               </ul>
             </div>
-          </div><!-- end entry__content -->
-        </div><!-- end entry -->
-        <div class="entry" style="background-image:url('images/index/html.jpg');">
-          <div class="entry__content">
-            <span class="entry__category"><a href="#1">html</a></span>
-            <h1><a href="#1" title="">Основные элементы веб страницы. Основы HTML .</a></h1>
-            <div class="entry__info">
-              <a class="entry__profile-pic" href="#1"><img alt="" class="avatar" src="images/avatars/user-02.jpg"></a>
-              <ul class="entry__meta">
+        </div>
+         <div class="view">
+          <div class="view-back">
+            <span data-icon="A">566</span>
+            <span data-icon="B">124</span>
+            <a href="http://www.flickr.com/photos/ag2r/5033654303/in/photostream">&rarr;</a>
+          </div>
+          <img src="images/5.jpg" />
+           <div class="author-viev">
+              <div class="img-viev"><img alt="" src="images/avatars/user-02.jpg"></div>
+              <ul>
                 <li>
                   <a href="#1">Aleksander Knyazev</a>
                 </li>
                 <li>April 25, 2020</li>
               </ul>
             </div>
-          </div><!-- end entry__content -->
-        </div><!-- end entry -->
-      </div><!-- end featured__small -->
-    </div><!-- end featured -->
-  </div><!-- end col-full -->
-</div><!-- end pageheader-content row -->
+        </div>
+        </div>
+       
 </section>
 
 
@@ -383,6 +390,7 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js'></script>
 <script  src="./js/script.js"></script>
         <script src="plugins/mmenu-js-master/dist/mmenu.js"></script>
+        <script type="text/javascript" src="js/modernizr.custom.69142.js"></script> 
         <script>
             new Mmenu(
                 document.querySelector('#menu'),
@@ -456,5 +464,21 @@
                 }
             });
         </script>
+        <script type="text/javascript"> 
+      
+      Modernizr.load({
+        test: Modernizr.csstransforms3d && Modernizr.csstransitions,
+        yep : ['http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js','js/jquery.hoverfold.js'],
+        nope: 'css/fallback.css',
+        callback : function( url, result, key ) {
+            
+          if( url === 'js/jquery.hoverfold.js' ) {
+            $( '#grid' ).hoverfold();
+          }
+
+        }
+      });
+        
+    </script>
     </body>
 </html>
