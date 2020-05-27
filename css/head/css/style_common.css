@@ -1,10 +1,9 @@
 .view {
-	width: 316px;
+	width: 80%;
 	height: 216px;
 	margin: 10px;
 	float: left;
 	position: relative;
-	border: 8px solid #fff;
 	box-shadow: 1px 1px 2px rgba(0,0,0,0.05);
 	background: #333;
 	-webkit-perspective: 500px;
@@ -12,6 +11,7 @@
 	-o-perspective: 500px;
 	-ms-perspective: 500px;
 	perspective: 500px;
+	border-radius: 2vw;
 }
 
 .view .slice{
@@ -142,4 +142,25 @@
 	-moz-transition: left 0.3s ease-in-out;
 	-ms-transition: left 0.3s ease-in-out;
 	transition: left 0.3s ease-in-out;
+}
+
+.proportion{
+	display: flex;
+    flex-direction: column;
+    width: 47%;
+    margin: 1vw;
+}
+
+@media only screen and (max-width:700px) {
+   .onehd {
+      display: none;
+   }
+
+   .proportion{
+   	width: 100%
+   }
+
+   .view{
+   	width: 100%
+   }
 }
