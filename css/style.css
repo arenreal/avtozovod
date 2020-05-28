@@ -244,7 +244,6 @@ a {
 }
 
 .header {
-   text-align: center;
    top: 30px;
    width: 100%;
 }
@@ -1317,8 +1316,6 @@ html.no-csstransitions .featured {
       background: transparent;
       border: none;
       outline: none;
-      pointer-events: none;
-      opacity: 0;
       color: #fff;
       font-size: 40px;
       -webkit-transition: opacity 0s;

@@ -1,10 +1,7 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta charset="utf-8" />
+<html>
+    <head>
+        <meta charset="utf-8" />
         <meta name="author"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
         <meta
@@ -14,17 +11,7 @@
          <meta name="description" content="3D Thumbnail Hover Effects" />
         <meta name="keywords" content="3d, 3dtransform, hover, effect, thumbnail, overlay, curved, folded" />
         <meta name="author" content="Codrops" />
-		<title>Inspiration for Search UI Effects | Demo 10 | Codrops</title>
-		<meta name="description" content="Some inspiration for search UI effects" />
-		<meta name="keywords" content="web design, inspiration, search, ui, effect, javascript, animation" />
-		<meta name="author" content="Codrops" />
-		<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="plugins/SearchUIEffects/css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="plugins/SearchUIEffects/css/style10.css" />
-		<!--[if IE]>
-  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]--><script>document.documentElement.className = 'js';</script>
-		<link rel="stylesheet" type="text/css" href="css/preloader.css"> 
+        <link rel="stylesheet" type="text/css" href="css/preloader.css"> 
         <link rel="stylesheet" type="text/css" href="css/head/css/demo.css" />
         <link rel="stylesheet" type="text/css" href="css/head/css/style_common.css" />
         <link rel="stylesheet" type="text/css" href="css/head/css/style2.css" />
@@ -66,11 +53,11 @@
                 }
             }
         </style>
+    </head>
+    <body  id="style-1">
+      <!--Preolader-->
 
-	</head>
-	<body class="demo-10">
-
-		<div class="loader">
+<div class="loader">
   <div class="loader-inner">
     <div class="loader-line-wrap">
       <div class="loader-line"></div>
@@ -91,36 +78,17 @@
 </div>
 
 
-		<svg class="hidden">
-			<defs>
-				<symbol id="icon-arrow" viewBox="0 0 24 24">
-					<title>arrow</title>
-					<polygon points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 "/>
-				</symbol>
-				<symbol id="icon-drop" viewBox="0 0 24 24">
-					<title>drop</title>
-					<path d="M12,21c-3.6,0-6.6-3-6.6-6.6C5.4,11,10.8,4,11.4,3.2C11.6,3.1,11.8,3,12,3s0.4,0.1,0.6,0.3c0.6,0.8,6.1,7.8,6.1,11.2C18.6,18.1,15.6,21,12,21zM12,4.8c-1.8,2.4-5.2,7.4-5.2,9.6c0,2.9,2.3,5.2,5.2,5.2s5.2-2.3,5.2-5.2C17.2,12.2,13.8,7.3,12,4.8z"/><path d="M12,18.2c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7c1.3,0,2.4-1.1,2.4-2.4c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7C15.8,16.5,14.1,18.2,12,18.2z"/>
-				</symbol>
-				<symbol id="icon-search" viewBox="0 0 24 24">
-					<title>search</title>
-					<path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
-				</symbol>
-				<symbol id="icon-cross" viewBox="0 0 24 24">
-					<title>cross</title>
-					<path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
-				</symbol>
-			</defs>
-		</svg>
-		<div class="page">
-			<div class="page__single page__single--dummy"></div>
-			<div class="page__single page__single--dummy"></div>
-			<div class="page__single page__single--dummy"></div>
-			<div class="page__single page__single--dummy"></div>
-			<main class="main-wrap page__single">
-				<header class="header">
-				<a href="#menu"><span></span></a>
 
-				<div id="home">
+
+
+
+
+
+        <div id="page">                
+  <header class="header">
+    <a href="#menu"><span></span></a>
+    <div class="header__content rob" id="home">
+      <div class="header__logo">
         <svg class="autograph logo" height="103" viewBox="0 0 600 103" width="600" xmlns="http://www.w3.org/2000/svg">
  <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
  <g fill="none" fill-rule="evenodd" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
@@ -144,15 +112,20 @@
   <path class="autograph__path" d="m399.752007,29.473663c0,1 0.392975,1.93036 -0.085327,2.714666c-0.490082,0.803643 -0.914673,1.385334 -0.914673,2.285334c0,0.8 0,1.700001 0,2.6c0,0.9 0.000671,1.799999 0,2.699999c-0.000671,0.900002 -0.030731,1.844278 -0.704498,2.342834c-0.694275,0.513737 -1.695496,0.357166 -2.59549,0.357166c-0.900024,0 -1.800018,0 -2.700012,0c-0.799988,0 -1.700012,0 -2.600006,0c-0.899994,0 -1.810608,-0.133501 -2.699982,0.004499c-0.930405,0.144369 -1.532578,0.768179 -1.695511,1.695501c-0.155899,0.887318 -0.448715,1.692308 -1.10434,2.4c-0.549957,0.59363 -1.055161,1.333557 -1.547501,1.952667c-0.51474,0.647284 -0.667145,1.334484 -1.185989,2.113998c-0.470886,0.707458 0.029282,1.667768 -0.223831,2.533335c-0.256638,0.877632 -0.914169,1.59864 -0.942841,2.5c-0.02861,0.89938 -0.545944,1.470741 -0.942841,2.157166c-0.422852,0.731323 -0.057159,1.742832 -0.057159,2.642834c0,0.799999 0,1.700001 0,2.599998c0,0.900002 -0.322235,1.857632 0.010666,2.789333c0.26329,0.736912 0.983994,1.221287 0.989334,2.110668c0.005402,0.899986 -0.131668,1.85006 0.221329,2.599998c0.365036,0.775532 0.413422,1.697758 0.814667,2.464001c0.397125,0.758358 0.876495,1.39043 1.574677,2c0.66658,0.581974 1.689331,0.436001 2.589325,0.436001c0.900009,0 1.800003,0 2.599991,0c0.900024,0 1.819855,0.168217 2.700012,-0.020832c0.844421,-0.18137 1.214478,-1.174362 1.721344,-1.858002c0.515778,-0.69566 0.773254,-1.306454 0.778656,-2.235832c0.005737,-0.985153 0.459656,-1.570198 0.87851,-2.328167c0.363098,-0.65707 -0.027832,-1.854443 0.342834,-2.657166c0.308502,-0.668064 0.767914,-1.5 0.778656,-2.400002c0.01062,-0.889332 0.725586,-1.373924 0.989319,-2.110668c0.299744,-0.83736 0.010681,-1.789333 0.010681,-2.689331c0,-0.900002 0,-1.800167 0,-2.585335c0,-0.939999 0,-1.947998 0,-2.703999c0,-0.910667 0,-1.810669 0,-2.715168c0,-1.016832 0,-1.695499 0,-2.674c0,-0.820166 0,-1.7215 0,-2.6215c0,-0.9 0,-1.799999 0,-2.699999c0,-0.900002 0,-1.800001 0,-2.700001c0,-0.799999 -0.411224,-1.822578 0.057159,-2.642834c0.464325,-0.813173 1.449493,-1.863833 0.942841,-1.863833c-0.839996,0 0,1.768001 0,2.558501c0,1.026499 0,1.7015 0,2.7815c0,0.862165 0,1.766666 0,2.666666c0,0.9 0,1.804501 0,2.666666c0,0.854168 0.035126,1.834591 -0.010681,2.622667c-0.042297,0.727938 -0.675232,1.614082 -0.932159,2.510666c-0.248444,0.86692 -0.057159,1.799999 -0.057159,2.700001c0,0.799999 0,1.700001 0,2.599998c0,0.900002 0,1.810669 0,2.721336c0,0.678665 0,1.657166 0,2.678665c0,0.799999 0,1.700001 0,2.599998c0,0.900002 0,1.800003 0,2.700001c0,0.900002 0,1.799999 0,2.700001c0,0.799999 -0.010681,1.700066 0,2.599998c0.010437,0.879356 0.598633,1.4091 1.052673,2.1045c0.494873,0.757896 1.247314,1.242836 2.047333,1.516834l0.699982,0.494667l0.842834,0.336666" fill="none" id="svg_63" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="9"/>
  </g>
 </svg>
-  </div><!-- header-content -->
+  </div><!-- end header__logo -->  
 
-					<div class="search-wrap">
-						<button id="btn-search" class="btn btn--search"><svg class="icon icon--search"><use xlink:href="#icon-search"></use></svg></button>
-					</div>
-				</header>
 
-				 <div id="grid" class="main" style="background-color: black; margin-top: 0px;
-    padding-top: 18px;">
+
+
+
+
+
+</div><!-- header-content -->
+</header><!-- header -->
+            </div>
+            </div>
+
+            <div id="grid" class="main">
               <div class="proportion onehd" style="width: 50%; justify-content: center;" >
         <div class="view" style="width: 100%; height: 80%;">
           <div class="view-back">
@@ -210,13 +183,8 @@
       </div>
         </div>
 
-
-
-				</main>     
-				  </div>
-            </div>
-
-    
+       
+</section>
 
 
             <div class="swiper-container main-slider loading">
@@ -807,17 +775,7 @@
             </nav>
         
         
-			</main>
-			<div class="search">
-				<button id="btn-search-close" class="btn btn--search-close" aria-label="Close search form"><svg class="icon icon--cross"><use xlink:href="#icon-cross"></use></svg></button>
-				<form class="search__form" action="">
-					<input class="search__input" name="search" type="search" placeholder="Find..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
-					<span class="search__info">Hit enter to search or ESC to close</span>
-				</form>
-			</div><!-- /search -->
-		</div><!-- /page -->
-		
-		<footer>
+<footer>
   <span class="footer-h">
     
     <ul class="menu topRight">
@@ -838,29 +796,9 @@
 
 </footer><!-- end s-footer -->
         <!-- mmenu scripts -->
-        
         <script  src="./js/script1.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/84/three.min.js"></script>
-
-        <script src="plugins/SearchUIEffects/js/demo10.js"></script>
-
-        <script type="text/javascript"> 
-      
-      Modernizr.load({
-        test: Modernizr.csstransforms3d && Modernizr.csstransitions,
-        yep : ['http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js','js/jquery.hoverfold.js'],
-        nope: 'css/fallback.css',
-        callback : function( url, result, key ) {
-            
-          if( url === 'js/jquery.hoverfold.js' ) {
-            $( '#grid' ).hoverfold();
-          }
-
-        }
-      });
-        
-    </script>
-    <script src="js/jquery-3.2.1.min.js"></script> 
+<script src="js/jquery-3.2.1.min.js"></script> 
 <script type="text/javascript">
         $(window).on('load', function () {
     $(".loader").delay(100).fadeOut().remove();    
@@ -875,7 +813,9 @@
             new Mmenu(
                 document.querySelector('#menu'),
                 {
-                    extensions: ['theme-dark', 'shadow-page'],
+                    extensions: ['theme-dark', 'shadow-page', "pagedim-black", "fx-menu-zoom",
+            "fx-panels-zoom",
+            "fx-listitems-slide"],
                     setSelected: true,
                     counters: true,
                     searchfield: {
@@ -952,5 +892,22 @@
                 }
             });
         </script>
-	</body>
+
+        <script type="text/javascript"> 
+      
+      Modernizr.load({
+        test: Modernizr.csstransforms3d && Modernizr.csstransitions,
+        yep : ['http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js','js/jquery.hoverfold.js'],
+        nope: 'css/fallback.css',
+        callback : function( url, result, key ) {
+            
+          if( url === 'js/jquery.hoverfold.js' ) {
+            $( '#grid' ).hoverfold();
+          }
+
+        }
+      });
+        
+    </script>
+    </body>
 </html>
