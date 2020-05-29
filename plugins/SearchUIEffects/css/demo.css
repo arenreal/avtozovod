@@ -24,6 +24,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: 50% 10em;
 	background-size: 75% auto;
+	background-color: black;
 }
 
 
@@ -35,6 +36,9 @@ body {
 	cursor: pointer;
 	border: none;
 	background: none;
+	position: absolute;
+    top: 2vw;
+    left: 23vw;
 }
 
 .btn:focus {
@@ -312,9 +316,15 @@ a,
 	}
 }
 
+
+.search-wrap {
+	position: relative;
+	}
+
 .header {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	padding-right: 0px;
-    padding-left: 17vw;
+	position: relative;
+	border-bottom: 2px solid rgba(239, 0, 0, 0.26);
 }
