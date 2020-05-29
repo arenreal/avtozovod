@@ -1183,6 +1183,8 @@ html.no-csstransitions .featured {
       font-size: 4.5rem;
    }
 
+
+
 }
 
 @media only screen and (max-width:800px) {
@@ -1193,7 +1195,13 @@ html.no-csstransitions .featured {
    .s-content__header h1 {
       font-size: 4rem;
    }
+.header__nav-wrap {
+   display: none;
+}
 
+.main {
+    margin-top: 5vw;
+ }
 }
 
 @media only screen and (max-width:600px) {
