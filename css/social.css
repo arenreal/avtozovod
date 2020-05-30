@@ -242,7 +242,9 @@
   }
  }
 
-.menu:hover ~ .copyright-i {color: black;}
+.menu:hover ~ .copyright-i {color: black;
+  border-top: 1px solid black;
+}
 
 .social:before {
   position: absolute;
@@ -251,6 +253,6 @@
     left: 1px;
   }
 
-  .footer-h {
+  .footer-h i {
   border-top: 1px solid #3e0000;
   }
