@@ -173,6 +173,8 @@
   left: 0;
   z-index: -1;
   opacity: 0;
+  width: 30px;
+    height: 30px;
 }
 .menu .submenu li a {
   color: #212121;
@@ -236,6 +238,7 @@
 
 .footer-h {
   margin-right: 10%;
+  border-top: 1px solid #3e0000;
   }
  }
 
@@ -246,4 +249,8 @@
     top: 1vw;
     right: 1px;
     left: 1px;
+  }
+
+  .footer-h {
+  border-top: 1px solid #3e0000;
   }
