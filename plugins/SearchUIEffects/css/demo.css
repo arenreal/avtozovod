@@ -340,6 +340,13 @@ a,
 
 @media screen and (max-width: 800px){
 	.btn{
+		left: 9vw;
+		top: 3vw;
+	}
+}
+
+@media screen and (max-width: 350px){
+	.btn{
 		left: 5vw;
 		top: 3vw;
 	}

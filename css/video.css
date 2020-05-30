@@ -52,22 +52,3 @@
   will-change: transform;
   transform: translate(-50%, 0);
 }
-@media (max-width: 768px) {
-  .about {
-    background: url(http://denis-creative.com/wp-content/uploads/2018/01/about-bg.jpg)
-      0 top no-repeat #0e438b;
-    -webkit-background-size: cover;
-    background-size: cover;
-  }
-  .video,
-  .about-header,
-  .about-footer,
-  .about-header-bg-2 {
-    display: none;
-  }
-}
-@media (max-width: 480px) {
-  .about-title{
-    font-size: 40px;
-  }
-}
