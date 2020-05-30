@@ -70,6 +70,7 @@ a{
 .main{
 	width: 92%;
     margin: 2vw;
+    margin-top: 9vw;
     position: relative;
     display: flex;
     overflow: hidden;
@@ -166,10 +167,32 @@ a{
 
 .author-viev {
    position: absolute;
-    top: 70%;
     z-index: 1000;
     color: black;
  }
+
+ .author-viev h3 {
+ 	text-align: center;
+ 	color: #e6dddd;
+ }
+
+.author-viev ul{
+	position: absolute;
+	top: 185%;
+}
+
+.author-viev li{
+	font-size: 1rem;
+	color: #b30b0b;
+	font-weight: 900;
+}
+.author-viev li a{
+	color: #ffffff;
+}
+ 
+.author-viev li:nth-child(2) {
+    list-style-type: none;   
+}
 
   .view {
    position: relative;
@@ -183,5 +206,9 @@ a{
     width: 20%;
     height: 50%;
 }
+
+.view:hover h3{
+ display: none;
 }
+
 

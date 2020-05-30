@@ -1199,9 +1199,6 @@ html.no-csstransitions .featured {
    display: none;
 }
 
-.main {
-    margin-top: 5vw;
- }
 }
 
 @media only screen and (max-width:600px) {
