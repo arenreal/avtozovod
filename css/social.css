@@ -221,22 +221,13 @@
   right: 10px;
 }
 
-
-
-
-.fa-instagram-square:before {
-     color: black;
-    position: absolute;
-    top: -12px;
-    right: 7px;
-}
-
-.fa-facebook:before {
-     color: black;
-    position: absolute;
-    top: -12px;
-    right: 7px;
-}
+.submenu li a i {
+  background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 2vw;
+    position: relative;
+  }
 
 @media only screen and (max-width:449px) {
    .menu {
@@ -249,3 +240,10 @@
  }
 
 .menu:hover ~ .copyright-i {color: black;}
+
+.social:before {
+  position: absolute;
+    top: 1vw;
+    right: 1px;
+    left: 1px;
+  }
