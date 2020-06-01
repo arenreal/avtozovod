@@ -140,7 +140,23 @@ body {
   -webkit-animation: neon .08s ease-in-out infinite alternate;
           animation: neon .08s ease-in-out infinite alternate;
 }
-
+@media only screen and (max-width: 560px){
+.selector-page {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    align-content: center;
+    padding-left: 0px;
+    top: 0%;
+}
+.selector-page p {
+    writing-mode: vertical-lr;
+    margin: 0;
+}
+.content {
+  top: 0% !important;
+}
+}
 /*-- Animation Keyframes --*/
 @-webkit-keyframes neon {
   from {
@@ -195,4 +211,6 @@ body {
   100% {
     stroke-dashoffset: 0;
   }
+
+
 
