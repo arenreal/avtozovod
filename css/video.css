@@ -52,3 +52,45 @@
   will-change: transform;
   transform: translate(-50%, 0);
 }
+
+
+@media (max-width: 768px) {
+  .mediazapr-it {
+    background: url(../images/index/program.jpg)
+      no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+   .mediazapr-phy {
+    background: url(../images/index/physics.jpg)
+      no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    opacity: 0.2;
+  }
+   .mediazapr-cosmo {
+    background: url(../images/index/cosmos.jpg)
+      no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    opacity: 0.7;
+  }
+   .mediazapr-fly {
+    background: url(../images/index/fly.jpg)
+      no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    opacity: 0.4;
+  }
+  .mediazapr-ship {
+    background: url(../images/index/ship.jpg)
+      no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    opacity: 0.2;
+  }
+  .video
+  {
+    display: none;
+  }
+}
