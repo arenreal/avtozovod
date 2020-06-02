@@ -74,10 +74,14 @@
     padding-left: 5%;
     color: #fff;
 }
+
+
+
  .swiper-slide .content .title {
     font-size: 2.6em;
     font-weight: bold;
     margin-bottom: 30px;
+    line-height: 5rem;
 }
  .swiper-slide .content .caption {
     display: block;
@@ -90,6 +94,21 @@
  .swiper-slide .content .caption.show {
     transform: translateX(0);
     opacity: 1;
+}
+
+@media only screen and (max-width:600px) {
+
+ .content {    
+    top: 25% !important; 
+}
+.swiper-slide .content .caption.show {
+    width: 200px;
+}
+
+.min{
+  line-height: 1.5rem !important;
+  font-size: 12px !important;
+}
 }
  [class^="swiper-button-"] {
     width: 44px;
@@ -195,7 +214,5 @@ body {
   100% {
     stroke-dashoffset: 0;
   }
-
-
 
 
