@@ -4,6 +4,7 @@
 /*Swiper*/
 .little-title{
   display: none;
+  font-size: 12px;
 }
 
 [class^="swiper-button-"] {
@@ -131,10 +132,19 @@
   display: block;
 }
 }
+
+@media only screen and (max-width:350px) {
+
+.big-title{
+  display: none;
+}
+
+  }
  [class^="swiper-button-"] {
     width: 44px;
     opacity: 0;
     visibility: hidden;
+}
 }
  .swiper-button-prev {
     transform: translateX(50px);
