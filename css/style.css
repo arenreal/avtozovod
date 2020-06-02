@@ -1402,7 +1402,7 @@ html.no-csstransitions .featured {
 footer{
    text-align: center;
    color: white;
-   background: linear-gradient(10deg,#020202,#020202);
+   background: linear-gradient(10deg,#020202,#0e0d0d);
    border-top:  medium dashed rgb(62, 0, 0);
 }
 

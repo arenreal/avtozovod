@@ -5,7 +5,13 @@
 .little-title{
   display: none;
   font-size: 12px;
+  font-weight: bold;
 }
+
+.minimalist {
+  margin: 0;
+}
+
 
 [class^="swiper-button-"] {
     transition: all 0.3s ease;
@@ -131,6 +137,16 @@
 .little-title{
   display: block;
 }
+
+.minimalist {
+
+   display: none;
+}
+
+.max .title {
+    font-size: 25px !important; 
+    }
+
 }
 
 @media only screen and (max-width:350px) {
@@ -166,30 +182,6 @@ body {
   height: 100%;
 }
 
-
-
-
-/*-- Sign Styles --*/
-.sign {
-  min-height: 100%;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-          flex-direction: column;
-  -webkit-box-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-          align-items: center;
-}
-.sign__word {
-  font-size: 5.6rem;
-  text-align: center;
-  line-height: 1;
-  color: #c6e2ff;
-  -webkit-animation: neon .08s ease-in-out infinite alternate;
-          animation: neon .08s ease-in-out infinite alternate;
-}
 
 /*-- Animation Keyframes --*/
 @-webkit-keyframes neon {
