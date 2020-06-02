@@ -1207,6 +1207,19 @@
 <script type="text/javascript" src="js/modernizr.custom.69142.js"></script> <!--menu animation plugin-->
 <script src="js/mmenu.js"></script> <!--script menu-->
 <script src="plugins/SearchUIEffects/js/demo10.js"></script> <!--script search-->
-<script src="js/moderniz-user.js"></script> <!--script animation menu-->
+<script>
+   Modernizr.load({
+    test: Modernizr.csstransforms3d && Modernizr.csstransitions,
+    yep : ['http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js','js/jquery.hoverfold.js'],
+    nope: 'css/fallback.css',
+    callback : function( url, result, key ) {
+
+      if( url === 'js/jquery.hoverfold.js' ) {
+        $( '#grid' ).hoverfold();
+      }
+
+    }
+  });
+</script> <!--script animation menu-->
 </body>
 </html>
