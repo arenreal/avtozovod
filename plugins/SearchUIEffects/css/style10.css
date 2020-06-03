@@ -41,13 +41,13 @@
 	width: 75%;
 	max-width: 900px;
 	padding: 0 0 0.1em;
-	color: #5c32f2;
+	color: #f4f3f3;
 	
 }
 
 .search__input::-webkit-input-placeholder {
 	/* WebKit, Blink, Edge */
-	color: #5c32f2;
+	color: white;
 }
 
 .search__input::-moz-placeholder {

@@ -1,18 +1,3 @@
-*,
-*::after,
-*::before {
-	box-sizing: border-box;
-}
-
-body {
-	font-family: 'Inconsolata', 'Monaco', monospace;
-	overflow: hidden;
-	margin: 0;
-	color: #a0a2ae;
-	background: #282b2f;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
 
 .main-wrap {
 	position: relative;
@@ -282,7 +267,7 @@ a,
 .demo-9 a, .demo-9 .btn { color: #22d2d2; }
 .demo-9 .btn--search-close { color: #dce6e6; }
 
-.demo-10 { color: #5c32f2; background-color: #c4d5e0; }
+.demo-10 { color: #dcdcdc; background-color: white; }
 .demo-10 a, .demo-10 .btn { color: #b30b0b; }
 .demo-10 .btn--search-close { color: #b30b0b; }
 
