@@ -131,11 +131,11 @@ h3 {
 }
 
 .slide__title-main {
-	font-family: 'nexa_boldregular', serif;
+	font-family: 'Rock Salt', arial, serif;
 	font-size: 6em;
 	line-height: 0.8;
 	display: inline-block;
-	margin: 0;
+	margin-bottom: 2vw;
 }
 
 .slide__title-sub {
@@ -179,3 +179,6 @@ h3 {
 		font-size: 0.75em;
 	}
 }
+
+.slide-imgwrap {
+	opacity: 0.4;

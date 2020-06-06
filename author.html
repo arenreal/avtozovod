@@ -15,6 +15,8 @@
 	<link rel="stylesheet" type="text/css" href="plugins/author/css/demo-grid.css" />
 	<link rel="stylesheet" type="text/css" href="plugins/author/pater/pater.css" />
 	<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet"> <!--fonts //mandatory style//-->
+	<link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css' />
+  <link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css' />
 	<link rel="stylesheet" type="text/css" href="plugins/SearchUIEffects/css/demo.css" />  <!-- Search //mandatory style//-->
 	<link rel="stylesheet" type="text/css" href="plugins/SearchUIEffects/css/style10.css" /> <!-- Search //mandatory style//-->
 	<link rel="stylesheet" href="./css/style-author.css">  <!-- main style //mandatory style//-->
@@ -52,15 +54,45 @@
 			</symbol>
 		</defs>
 	</svg>
+<style type="text/css">
+	.header a:before, .header a:after {
+    background: #ffc712;
+}
+.header__nav li:hover > a, .header__nav li:focus > a {
+    color: #ffc712;
+}
+footer {
+    border-top: medium dashed #ffc712;
+}
+.js .search--open .search__form {
+    background-color: #ffc7126b;
+}
 
+.page__single--dummy {
+    
+    background-color: #ffc7126b;
+    
+}
+
+.mm-menu_theme-dark {
+    --mm-color-background: #d0a21133;
+}
+
+.mm-panel_opened::-webkit-scrollbar-thumb {
+    background-color: #d4ccb2;
+}
+.mm-panel_opened::-webkit-scrollbar-track {
+    background-color: #73612c;
+}
+</style>
 	<div class="page"> <!--page search-->
 		<div class="page__single page__single--dummy"></div>
 		<div class="page__single page__single--dummy"></div>
 		<div class="page__single page__single--dummy"></div>
 		<div class="page__single page__single--dummy"></div>
 		<main class="main-wrap page__single"> <!--main page search-->
-			<header class="header"> <!--In this block of the content to be selected in the new page when you click search-->
-				<a href="#menu"><span></span></a> <!--start block to menu-->
+			<header class="header" style="border-bottom: 2px solid #ffc712;"> <!--In this block of the content to be selected in the new page when you click search-->
+				<a href="#menu"><span style="background: #ffc712;"></span></a> <!--start block to menu-->
 
 				<div id="home" style="text-align: center;"> <!--block with main title svg-->
 					<svg class="autograph logo" height="103" viewBox="0 0 600 103" width="600" xmlns="https://www.w3.org/2000/svg">
@@ -94,19 +126,19 @@
 		<!--==========NAVBAR @ max media=============-->
 		<nav class="header__nav-wrap"> 
 			<ul class="header__nav">
-				<li class="current">
-					<a href="index.html" title="">Home</a>
-				</li>
-				<li>
-					<a href="contact.html" title="">Contact</a>
-				</li>
-				<li>
-					<a href="about.html" title="">About</a>
-				</li>
-				<li>
-					<a href="#" title="">Login/Registration</a>
-				</li>
-			</ul><!-- end header__nav -->  
+    <li class="current">
+      <a href="index.html" title="">Home</a>
+    </li>
+    <li>
+      <a href="about.html" title="">About/Contact</a>
+    </li>
+    <li>
+      <a href="#" title="">Author</a>
+    </li>
+    <li>
+      <a href="login.html" title="">Login/Registration</a>
+    </li>
+  </ul><!-- end header__nav --> 
 		</nav><!-- end header__nav-wrap -->
 
 	</main>    <!-- end main page search -->
@@ -120,41 +152,36 @@
 		<div class="grid">
 			<div class="grid__item">
 				<div class="pieces" style="background-image:url(plugins/author/img/1b.jpg)" data-image-alt="plugins/author/img/1b.jpg"></div>
-				<h3 class="grid__item-title">Jesse Mark</h3>
-				<span class="grid__item-deco line">Я</span>
+				<h3 class="grid__item-title">Aleksander Knyazev</h3>
+				<span class="grid__item-deco line">A</span>
 			</div>
 			<div class="grid__item">
-				<div class="pieces" style="background-image:url(plugins/author/img/4b.jpg)" data-image-alt="plugins/author/img/4b.jpg"></div>
-				<h3 class="grid__item-title">Eva Herrera</h3>
-				<span class="grid__item-deco line">X</span>
-			</div>
-			<div class="grid__item">
-				<div class="pieces" style="background-image:url(plugins/author/img/3b.jpg)" data-image-alt="plugins/author/img/3b.jpg"></div>
-				<h3 class="grid__item-title">Jo Halonen</h3>
-				<span class="grid__item-deco line">Z</span>
-			</div>
-			<div class="grid__item">
-				<div class="pieces" style="background-image:url(plugins/author/img/2b.jpg)" data-image-alt="plugins/author/img/2b.jpg"></div>
-				<h3 class="grid__item-title">Walter Bay</h3>
+				<div class="pieces" style="background-image:url(plugins/author/img/4b.jpeg)" data-image-alt="plugins/author/img/4b.jpeg"></div>
+				<h3 class="grid__item-title">Olga Krestovskay</h3>
 				<span class="grid__item-deco line">O</span>
 			</div>
 			<div class="grid__item">
+				<div class="pieces" style="background-image:url(plugins/author/img/3b.jpeg)" data-image-alt="plugins/author/img/3b.jpeg"></div>
+				<h3 class="grid__item-title">Ruslana Podgorskay</h3>
+				<span class="grid__item-deco line">R</span>
+			</div>
+			<div class="grid__item">
 				<div class="pieces" style="background-image:url(plugins/author/img/2b.jpg)" data-image-alt="plugins/author/img/2b.jpg"></div>
-				<h3 class="grid__item-title">Walter Bay</h3>
+				<h3 class="grid__item-title">Chloe Spenser</h3>
 				<span class="grid__item-deco line">O</span>
 			</div>
 			<div class="grid__item">
-				<a href=""><div class="pieces" style="background-image:url(plugins/author/img/2b.jpg)" data-image-alt="plugins/author/img/2b.jpg"></div></a>
-				<a href=""><h3 class="grid__item-title">Walter Bay</h3></a>
+				<div class="pieces" style="background-image:url(plugins/author/img/6b.jpg)" data-image-alt="plugins/author/img/6b.jpg"></div>
+				<h3 class="grid__item-title">Eric Royge</h3>
+				<span class="grid__item-deco line">O</span>
+			</div>
+			<div class="grid__item">
+				<a href=""><div class="pieces" style="background-image:url(plugins/author/img/7b.jpg)" data-image-alt="plugins/author/img/7b.jpg"></div></a>
+				<a href=""><h3 class="grid__item-title">Kriss Tomphson</h3></a>
 				<a href=""><span class="grid__item-deco line">O</span></a>
 			</div>
 			<div class="grid__item">
-				<div class="pieces" style="background-image:url(plugins/author/img/2b.jpg)" data-image-alt="plugins/author/img/2b.jpg"></div>
-				<h3 class="grid__item-title">Walter Bay</h3>
-				<span class="grid__item-deco line">O</span>
-			</div>
-			<div class="grid__item">
-				<div class="pieces" style="background-image:url(plugins/author/img/2b.jpg)" data-image-alt="plugins/author/img/2b.jpg"></div>
+				<div class="pieces" style="background-image:url(plugins/author/img/9b.jpg)" data-image-alt="plugins/author/img/9b.jpg"></div>
 				<h3 class="grid__item-title">Walter Bay</h3>
 				<span class="grid__item-deco line">O</span>
 			</div>

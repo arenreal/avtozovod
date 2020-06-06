@@ -481,6 +481,7 @@ a {
    display: block;
    color: rgba(255, 255, 255, 0.6);
    line-height: 39px;
+   font-family: 'Rock Salt', arial, serif;
 }
 
 .header__nav li.has-children > a::after {
@@ -515,6 +516,7 @@ a {
 
 .header__nav li.current > a {
    color: #ff0000c4;
+   font-family: 'Rock Salt', arial, serif;
 }
 
 .header__nav li ul {
