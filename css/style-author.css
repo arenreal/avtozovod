@@ -159,9 +159,7 @@ img, video {
 img {
     border-style: none;
 }
-*, *::before, *::after {
-    box-sizing: inherit;
-}
+
 a {
     color: #0054a5;
     -webkit-transition: all 0.3s ease-in-out;

@@ -143,4 +143,8 @@ body{
 	.grid__item-deco {
 		font-size: 7em;
 	}
+	.grid__item-deco {
+    right: 10%;
+	}
 }
+

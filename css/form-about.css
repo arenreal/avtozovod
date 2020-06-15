@@ -487,6 +487,9 @@ ol li + li, ul li + li {
 .form .error.text-input, .form .error.textarea, .error .form .text-input, .form .error .text-input, .error .form .textarea, .form .error .textarea {
   border-color: transparent transparent red transparent;
 }
+.text-input:visited {
+  background-color: black;
+}
 .form:not(.has-floated-label) .text-input:active, .form:not(.has-floated-label) .textarea:active, .form:not(.has-floated-label) .text-input:focus, .form:not(.has-floated-label) .textarea:focus {
   border-color: transparent transparent #530808 transparent;
 }
